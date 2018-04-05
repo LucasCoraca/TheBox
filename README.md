@@ -6,19 +6,19 @@ A cheap and accessible 3D printer that delivers high quality prints and features
 
 ##Parts to buy, print and laser cut
 
-  [a link](https://docs.google.com/spreadsheets/d/1RBnSuDR8UuKjEvOOzaPsCZfukejlvh9cotuhqPRqMRU/edit#gid=336025565)
+  [Link](https://docs.google.com/spreadsheets/d/1RBnSuDR8UuKjEvOOzaPsCZfukejlvh9cotuhqPRqMRU/edit#gid=336025565)
 
-##CAD Files
+## OnShape Project
 
-  [a link](https://cad.onshape.com/documents/41fe9c687b2344b4ad23c1d4/w/ac96e5fc62343bcfb2fe1884/e/2b59381643b790c82e7bd07e)
+  [Link](https://cad.onshape.com/documents/41fe9c687b2344b4ad23c1d4/w/ac96e5fc62343bcfb2fe1884/e/2b59381643b790c82e7bd07e)
 
-##Octoprint img
+## Octoprint img
 
 ```
   Available soon
 ```
 
-##How to build
+## How to build
 
 ```
   Available soon
