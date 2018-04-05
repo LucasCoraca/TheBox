@@ -4,6 +4,8 @@
   <img src="https://image.ibb.co/fCdfex/Screen_Shot_2018_03_26_at_17_27_57.png">
 </p>
 
+<script src="https://embed.github.com/view/3d/LucasCoraca/TheBox3Dprinter/blob/master/Parts%20to%20print/Bottom%20spacer.stl>"></script>
+
 A cheap and accessible 3D printer that delivers high quality prints and features at a really affordable prices.
 
 ## Parts to buy, print and laser cut
