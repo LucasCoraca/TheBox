@@ -4,7 +4,7 @@
 
 A cheap and accessible 3D printer that delivers high quality prints and features at a really affordable prices.
 
-##Parts to buy, print and laser cut
+## Parts to buy, print and laser cut
 
   [Link](https://docs.google.com/spreadsheets/d/1RBnSuDR8UuKjEvOOzaPsCZfukejlvh9cotuhqPRqMRU/edit#gid=336025565)
 
