@@ -1,0 +1,12 @@
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+G28  ;home XYZ.
+G1 X195 Y195 Z0 F9000
+G92 E0 ;zero the extruded length
+G1 F3600 X20 E20 ; clean the nozzle
+G92 E0 ;zero the extruded length again
+G1 F9000
+;Put printing message on LCD screen
+M117 Printing...
