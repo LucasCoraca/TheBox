@@ -164,4 +164,8 @@ nav li {
   .links {
     font-size: 12px;
   }
+
+  .video-foreground{
+    display: none;
+  }
 }
