@@ -26,7 +26,7 @@ nav {
   height: 60px;
   top: 0;
   left: 0;
-  background:rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -121,7 +121,16 @@ nav li {
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
-/*Medium Screens*/
+
+/* Section */
+
+section {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+/* Medium Screens */
 
 @media only screen and (min-width:1366px) {
   /* Dynamic Nav Bar */
