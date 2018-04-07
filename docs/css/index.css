@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  font-family: 'Open Sans';
+  background-color: #ecf0f1;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Dynamic Nav Bar */
+
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background:rgba(0,0,0,0);
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #ecf0f1;
+}
+
+a{
+  color: #ecf0f1;
+}
+
+.navbar {
+  margin-left: 20px;
+  display: table-cell;
+    vertical-align: middle;
+    text-align:center
+}
+
+.links {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.len{
+  font-size: 11px;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+nav li {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Intro */
+
+.intro {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.video-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.video-foreground iframe{
+  width: 100vw;
+      height: 56.25vw;
+}
+
+.video-foreground iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+/*Medium Screens*/
+
+@media only screen and (min-width:1366px) {
+  /* Dynamic Nav Bar */
+  nav ul{
+  }
+
+  .len {
+
+  }
+
+  .navbar{
+    margin-left: 15%;
+  }
+
+  .links {
+    margin-right: 15%;
+  }
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) and (min-width:760px) {
+
+
+}
+
+/* Smartphone */
+
+@media only screen and (max-width: 760px) {
+  .len {
+    display: none;
+  }
+
+  .navbar{
+    font-size: 12px;
+  }
+
+  .links {
+    font-size: 12px;
+  }
+}
