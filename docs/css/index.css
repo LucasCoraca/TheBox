@@ -19,6 +19,14 @@ a {
 
 }
 
+.scroll_next{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: red;
+    z-index: 2;
+}
+
 /* Dynamic Nav Bar */
 
 nav {
@@ -88,8 +96,6 @@ nav li {
     margin-right: 5px;
 }
 
-
-
 /* Intro */
 
 .intro {
@@ -99,7 +105,32 @@ nav li {
   overflow: hidden;
 }
 
+.white_arrow {
+  position: absolute;
+  z-index: 1;
+  height: 15vh;
+  left: 50%;
+  top: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: none;
+}
 
+.the_box {
+  color: white;
+  z-index: 1;
+  font-size: 20vh;
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
 
 .video-foreground {
   position: relative;
