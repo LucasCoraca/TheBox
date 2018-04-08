@@ -210,6 +210,10 @@ section {
     display: none;
   }
 
+  .the_box {
+    font-size: 10vh;
+  }
+
   .navbar{
     font-size: 12px;
   }
