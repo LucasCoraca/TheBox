@@ -1,6 +1,7 @@
 // INTRO Animatio
 
 $( document ).ready(function() {
+    window.scrollTo(0,1);
     $('.the_box').delay(1500).fadeIn(1000);
     $('.the_box').delay(4000).fadeOut(1000);
     $('.white_arrow').delay(8000).fadeIn(1000);
