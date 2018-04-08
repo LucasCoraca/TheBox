@@ -144,6 +144,7 @@ nav li {
 .video-foreground iframe{
   width: 100vw;
   height: 56.25vw;
+  display: none;
 }
 
 .video-foreground iframe {
@@ -206,6 +207,7 @@ section {
 .slideshow {
   position: relative;
   width: 20vw;
+  background: black;
   top: 50%;
   float: left;
   -ms-transform: translateY(-50%);
@@ -213,9 +215,21 @@ section {
   transform: translateY(-50%);
 }
 
+.slideshow  div {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.slideshow img {
+  width: 100%;
+}
+
 /* Medium Screens */
 
-@media only screen and (max-width:1366px) {
+@media only screen and (max-width:1360px) {
   /* Dynamic Nav Bar */
   nav ul{
   }
@@ -228,7 +242,7 @@ section {
     margin-left: 20px;
   }
 
-  .link {
+  .links {
     margin-right: 20px;
   }
 
@@ -256,6 +270,10 @@ section {
 /* Smartphone */
 
 @media only screen and (max-width: 760px) {
+
+  nav{
+    height: 40px;
+  }
 
   .container {
     width: 100vw;
@@ -291,6 +309,8 @@ section {
 
   .slideshow{
       width: 100%;
+      height: auto;
+      min-height: 400px;
       margin-top: 10px;
       top: 0;
       -ms-transform: translateY(0);
@@ -307,4 +327,65 @@ section {
   .video-foreground{
 
   }
+}
+
+@media only screen and (max-width: 380px) {
+
+  nav{
+    height: 40px;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+    overflow-y: scroll;
+  }
+
+  .textContainer {
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    margin-top: 10px;
+    float: right;
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .len {
+    display: none;
+  }
+
+  .the_box {
+    font-size: 10vh;
+    top: 82%;
+  }
+
+  .navbar{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .slideshow{
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      top: 0;
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+
+  }
+
+  .links {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+
+  .video-foreground{
+
+  }
+
 }

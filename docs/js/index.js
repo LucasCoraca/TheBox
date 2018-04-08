@@ -2,8 +2,9 @@
 
 $( document ).ready(function() {
     $('.the_box').delay(1500).fadeIn(1000);
-    $('.the_box').delay(4000).fadeOut(1000);
-    $('.white_arrow').delay(8000).fadeIn(1000);
+    $('.the_box').delay(2000).fadeOut(1000);
+    $('.video-foreground iframe').delay(5000).fadeIn(1000);
+    $('.white_arrow').delay(6000).fadeIn(1000);
 });
 
 
@@ -17,3 +18,12 @@ $(window).on( "scrollstop",  function() {
 });
 
 var scroll = new SmoothScroll('a[href*="#"]');
+
+
+//About slideshow
+
+$(".slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('.slideshow > div:first').fadeOut(1200).next().fadeIn(1200).end().appendTo('.slideshow');
+}, 6000);
