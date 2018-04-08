@@ -16,7 +16,4 @@ $(window).on( "scrollstop",  function() {
     }
 });
 
-$( ".scroller" ).click(function() {
-    console.log(5 + 6);
-    $("body").animate({ scrollTop: $(window).height()}, 300);
-});
+var scroll = new SmoothScroll('a[href*="#"]');

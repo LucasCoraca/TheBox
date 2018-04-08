@@ -11,8 +11,8 @@ html body{
   font-family: 'Open Sans';
   background-color: #ecf0f1;
   overflow: hidden;
-  overflow-y: scroll;
 }
+
 
 a {
   text-decoration: none;
@@ -212,6 +212,7 @@ section {
 
   .the_box {
     font-size: 10vh;
+    top: 82%;
   }
 
   .navbar{
