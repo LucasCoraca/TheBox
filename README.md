@@ -28,4 +28,4 @@ A cheap and accessible 3D printer that delivers high quality prints and features
 
 ## License
 
-All software is licensed under GNU GPL 3.0, and all hardware is licensed under CERN OHL v1.2
+All software is licensed under GNU GPL 3.0 and all hardware is licensed under CERN OHL v1.2
