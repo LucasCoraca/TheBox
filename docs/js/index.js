@@ -8,12 +8,14 @@ $( document ).ready(function() {
     $('.white_arrow').delay(6000).fadeIn(1000);
 });
 
-// NAVBAR Animation
+// navbar and footer Animation
 $(window).on( "scrollstop",  function() {
     if ($('section').visible( true )) {
       $('nav').animate({ 'backgroundColor': 'rgba(0, 0, 0, 0)' },200);
+      $('footer').animate({ 'backgroundColor': 'rgba(0, 0, 0, 0)' },200);
     } else {
       $('nav').animate({ 'backgroundColor': 'rgba(0, 0, 0, 1)' },200);
+      $('footer').animate({ 'backgroundColor': 'rgba(0, 0, 0, 1)' },200);
     }
 });
 
@@ -37,3 +39,11 @@ setInterval(function() {
 window.onresize = function(event) {
     $('.slideshow').height($('.first').height());
 };
+
+//donate slideshow
+$(window).on( "scrollstop",  function() {
+  if ($('.listContainer').visible( true )) {
+    $('.listContainer').stop().animate({ scrollTop: 0 }, 400);
+    $('.listContainer').delay(500).animate({ scrollTop: $('.list').prop('scrollHeight') }, 7000);
+  }
+});

@@ -267,10 +267,10 @@ section {
   text-shadow: 0px 1px 0px #ffffff;
   text-align: center;
   margin: 0%;
-  margin-bottom: 1  0px;
+  margin-bottom: 1 0px;
   height: 40px;
   width: 200px;
-  }
+}
 
 .button img {
   width: 50%;
@@ -298,7 +298,6 @@ section {
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-
 }
 
 .other {
@@ -317,7 +316,7 @@ section {
 
 /* Buy */
 
-#buy .container .textContainer{
+#buy .container .textContainer {
   max-width: 100%;
   width: 100%;
 }
@@ -327,7 +326,7 @@ section {
 #license .container {
   padding-left: 7vw;
   padding-right: 7vw;
-  }
+}
 
 #license img {
   height: 25%;
@@ -353,46 +352,64 @@ section {
 
 /* Donate */
 
-#donate .container .textContainer{
+#donate .container .textContainer {
   float: left;
 }
 
-.listContainer {
+.gradientContainer {
   position: relative;
   float: right;
   width: 35%;
   top: 50%;
-  height: 30%;
-  overflow-y: hidden;
+  height: 50%;
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.listContainer::after {
-content:'';
- top: 0;
- left: 0;
- height: 50%;
- right: 0;
- background: linear-gradient(to bottom, rgba(236,240,241, 1) 0%, rgba(251, 251, 251, 0) 100%);
- position: fixed;
+.listContainer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.topGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60%;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(236, 240, 241, 1) 0%, rgba(251, 251, 251, 0) 100%);
+  position: fixed;
+}
+
+.feat {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.andm {
+  margin-bottom: 70%;
+  text-align: center;
 }
 
 #gradientbottom {
-    position:absolute;
-    z-index:2;
-    right:0; bottom:0; left:0;
-    height:50%; /* adjust it to your needs */
-    background: url(data:image/svg+xml;base64,alotofcodehere);
-    background: -moz-linear-gradient(top,  rgba(236,240,241,0) 0%, rgba(236,240,241,1) 70%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,240,241,0)), color-stop(70%,rgba(236,240,241,1)));
-    background: -webkit-linear-gradient(top,  rgba(236,240,241,0) 0%,rgba(236,240,241,1) 70%);
-    background: -o-linear-gradient(top,  rgba(236,240,241,0) 0%,rgba(236,240,241,1) 70%);
-    background: -ms-linear-gradient(top,  rgba(236,240,241,0) 0%,rgba(236,240,241,1) 70%);
-    background: linear-gradient(to bottom,  rgba(236,240,241,0) 0%,rgba(236,240,241,1) 70%);
-}​
-
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  /* adjust it to your needs */
+  background: url(data:image/svg+xml;base64,alotofcodehere);
+  background: -moz-linear-gradient(top, rgba(236, 240, 241, 0) 0%, rgba(236, 240, 241, 1) 70%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(236, 240, 241, 0)), color-stop(70%, rgba(236, 240, 241, 1)));
+  background: -webkit-linear-gradient(top, rgba(236, 240, 241, 0) 0%, rgba(236, 240, 241, 1) 70%);
+  background: -o-linear-gradient(top, rgba(236, 240, 241, 0) 0%, rgba(236, 240, 241, 1) 70%);
+  background: -ms-linear-gradient(top, rgba(236, 240, 241, 0) 0%, rgba(236, 240, 241, 1) 70%);
+  background: linear-gradient(to bottom, rgba(236, 240, 241, 0) 0%, rgba(236, 240, 241, 1) 70%);
+}
 
 
 .list {
@@ -404,12 +421,61 @@ content:'';
   margin-bottom: 5px;
 }
 
+/* Footer */
+
+footer {
+  position: fixed;
+  width: 100vw;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 2;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #ecf0f1;
+}
+
+footer a {
+  color: #c7cacc;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  border-bottom: 1px solid transparent;
+  /* ...and now for the proper property */
+  transition: 0 .2s;
+  transition: border-bottom 0.2s;
+}
+
+footer a:hover {
+  color: white;
+  border-color: white;
+  border-bottom: 1px solid;
+}
+
+footer li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* Medium Screens */
 
 @media only screen and (max-width:1360px) {
   /* Dynamic Nav Bar */
-  nav ul {}
-  .len {}
   .navbar {
     margin-left: 20px;
   }
@@ -417,13 +483,12 @@ content:'';
     margin-right: 20px;
   }
   .textContainer {
-    max-width: 70%;
+    max-width: 60%;
   }
   .container {
     width: 80vw;
     height: 85vh;
   }
-
   #license img {
     height: 20%;
   }
@@ -434,6 +499,9 @@ content:'';
 @media only screen and (max-width: 1024px) and (min-width:760px) {
   .textContainer {
     max-width: 70%;
+  }
+  .gradientContainer {
+    width: 30%;
   }
 }
 
@@ -459,8 +527,19 @@ content:'';
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-  .len {
-    display: none;
+  .textContainer img {
+    width: 70%;
+  }
+  .gradientContainer {
+    width: 100%;
+    margin-bottom: 10%;
+    top: 5%;
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .buildY {
+    height: 100%;
   }
   .the_box {
     font-size: 10vh;
@@ -485,25 +564,20 @@ content:'';
     margin-right: 10px;
   }
   .video-foreground {}
-
-    #license img {
-      height: auto;
-      max-height: 20%;
-      max-width: 100%;
-      width: auto;
-      display:block;
-      margin:auto;
-    }
-
-    .ohr_logo {
-      float:none;
-    }
-
-
-
+  #license img {
+    height: auto;
+    max-height: 20%;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    margin: auto;
+  }
+  .ohr_logo {
+    float: none;
+  }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 450px) {
   nav {
     height: 40px;
   }
@@ -523,15 +597,12 @@ content:'';
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-  .len {
-    display: none;
-  }
   .the_box {
     font-size: 10vh;
     top: 82%;
   }
   .navbar {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 10px;
   }
   .slideshow {
@@ -547,6 +618,7 @@ content:'';
   .links {
     font-size: 10px;
     margin-right: 10px;
+    display: none;
   }
   .video-foreground {}
 }
