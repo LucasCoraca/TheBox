@@ -16,9 +16,9 @@ A cheap and accessible 3D printer that delivers high quality prints and features
 
 ## Octoprint img
 
-```
-  Available soon
-```
+For OrangePi Zero H2+ boards ONLY!
+
+[Link](https://drive.google.com/file/d/19p6S_D2oeXVqkr4n2Q85cPeOsD8jHeYV/view?usp=sharing)
 
 ## How to build
 
