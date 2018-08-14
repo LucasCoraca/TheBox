@@ -4,7 +4,7 @@
   <img src="https://image.ibb.co/fCdfex/Screen_Shot_2018_03_26_at_17_27_57.png">
 </p>
 
-A cheap and accessible 3D printer that delivers high quality prints and features at a really affordable prices.
+A cheap and accessible 3D printer that delivers high quality prints and features.
 
 ## Parts to buy, print and laser cut
 
@@ -28,4 +28,4 @@ For OrangePi Zero H2+ boards ONLY!
 
 ## License
 
-All software is licensed under GNU GPL 3.0 and all hardware is licensed under CERN OHL v1.2
+All software is licensed under GNU GPL 3.0 and all hardware is licensed under CERN OHL v1.2.
