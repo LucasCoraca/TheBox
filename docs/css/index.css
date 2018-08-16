@@ -321,6 +321,21 @@ section {
   width: 100%;
 }
 
+/* Agradecimentos */
+
+#agradecimentos .container {
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+#agradecimentos {
+  text-align: center;
+}
+
+.agrad_logo {
+  height: 10%;
+}
+
 /* License */
 
 #license .container {
