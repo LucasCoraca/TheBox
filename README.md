@@ -8,7 +8,7 @@ A cheap and accessible 3D printer that delivers high quality prints and features
 
 ## Parts to buy, print and laser cut
 
-  [Link](https://docs.google.com/spreadsheets/d/1RBnSuDR8UuKjEvOOzaPsCZfukejlvh9cotuhqPRqMRU/edit#gid=336025565)
+  [Link](https://docs.google.com/spreadsheets/d/1rRJvUTxri7WD7c6Lu2vtHpti1ubyVZdlL8Ckaogfj2o/edit#gid=336025565)
 
 ## OnShape Project
 
