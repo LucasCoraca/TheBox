@@ -332,8 +332,12 @@ section {
   text-align: center;
 }
 
-.agrad_logo {
-  height: 10%;
+.puc_logo {
+  height: 200px;
+}
+
+.nav_logo {
+  height: 100px;
 }
 
 /* License */
@@ -523,11 +527,28 @@ footer li {
   .gradientContainer {
     width: 30%;
   }
+
+  .puc_logo {
+    height: 100px;
+  }
+
+  .nav_logo {
+    height: 50px;
+  }
 }
 
 /* Smartphone */
 
 @media only screen and (max-width: 760px) {
+
+  .puc_logo {
+    height: 100px;
+  }
+
+  .nav_logo {
+    height: 50px;
+  }
+
   nav {
     height: 40px;
   }
